@@ -16,4 +16,4 @@ export async function buscarDiscografia(artista) {
 
     return esDelArtista && noEsSingleNiEP;
   });
-}
+} // hola pe xd
