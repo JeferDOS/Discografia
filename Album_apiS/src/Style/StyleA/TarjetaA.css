@@ -1,0 +1,78 @@
+body {
+  background-color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+.ContenedorPrincipal {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.Buscador {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.Buscador input {
+  padding: 10px 15px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.TituloPrincipal {
+  text-align: center;
+  font-size: 64px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.Buscador button {
+  padding: 10px 20px;
+  background-color: #1a1a1a;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.GridTarjetas {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.Tarjeta {
+  background-color: #181818;
+  color: white;
+  border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.Imagen img {
+  width: 100%;
+  border-radius: 8px;
+  display: block;
+}
+
+.Title {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.Artist {
+  color: #b3b3b3;
+  font-size: 14px;
+}
